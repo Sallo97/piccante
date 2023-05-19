@@ -74,7 +74,7 @@ public:
     }
 };
 
-template<class T>
+//template<class T>
 class ConnectedComponents
 {
 protected:
@@ -330,6 +330,7 @@ public:
      * @param ret
      * @return
      */
+    template <typename T>
     uint *execute(T *imgIn, int width, int height, uint *imgOut, std::vector<LabelOutput> &ret)
     {
         //Check input paramters
